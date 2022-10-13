@@ -11,5 +11,6 @@ public class App
         System.out.println( result.sum(1,1) );
         VATCalculator VatCalc = new VATCalculator();
         System.out.println( "Your VAT is " + VatCalc.calculateVATToPay(10, 20) );
+        System.out.println("Program has completed");
     }
 }
